@@ -1,0 +1,92 @@
+{"properties": [
+  {
+    "name": "mining.reward.address",
+    "type": "java.lang.String",
+    "description": "A description for 'mining.reward.address'"
+  },
+  {
+    "name": "blockchain.leveldb.path",
+    "type": "java.lang.String",
+    "description": "A description for 'blockchain.leveldb.path'"
+  },
+  {
+    "name": "wallet.leveldb.path",
+    "type": "java.lang.String",
+    "description": "A description for 'wallet.leveldb.path'"
+  },
+  {
+    "name": "mining.difficulty",
+    "type": "java.lang.String",
+    "description": "A description for 'mining.difficulty'"
+  },
+  {
+    "name": "mining.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'mining.enabled'"
+  },
+  {
+    "name": "network.node.id",
+    "type": "java.lang.String",
+    "description": "A description for 'network.node.id'"
+  },
+  {
+    "name": "network.port",
+    "type": "java.lang.String",
+    "description": "A description for 'network.port'"
+  },
+  {
+    "name": "network.bootstrap.nodes",
+    "type": "java.lang.String",
+    "description": "A description for 'network.bootstrap.nodes'"
+  },
+  {
+    "name": "token.contract.totalSupply",
+    "type": "java.lang.String",
+    "description": "A description for 'token.contract.totalSupply'"
+  },
+  {
+    "name": "token.contract.symbol",
+    "type": "java.lang.String",
+    "description": "A description for 'token.contract.symbol'"
+  },
+  {
+    "name": "token.contract.name",
+    "type": "java.lang.String",
+    "description": "A description for 'token.contract.name'"
+  },
+  {
+    "name": "sharding.node.shard.id",
+    "type": "java.lang.String",
+    "description": "A description for 'sharding.node.shard.id'"
+  },
+  {
+    "name": "sharding.total.shards",
+    "type": "java.lang.String",
+    "description": "A description for 'sharding.total.shards'"
+  },
+  {
+    "name": "spring.web.cors.allowed-origins",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allowed-origins'"
+  },
+  {
+    "name": "spring.web.cors.allowed-methods",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.web.cors.allowed-methods'"
+  },
+  {
+    "name": "token.contract.totalSupply",
+    "type": "java.lang.String",
+    "description": "A description for 'token.contract.totalSupply'"
+  },
+  {
+    "name": "token.contract.totalSupply",
+    "type": "java.lang.String",
+    "description": "A description for 'token.contract.totalSupply'"
+  },
+  {
+    "name": "token.contract.totalSupply",
+    "type": "java.lang.String",
+    "description": "A description for 'token.contract.totalSupply'"
+  }
+]}

@@ -1,0 +1,57 @@
+# Maven target directory
+/target/
+
+# Logs
+*.log
+logs/
+
+# Eclipse and VSCode
+.project
+.classpath
+.settings/
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# LevelDB database files
+data/leveldb/
+
+# Environment variables
+.env
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# JARs and packaged builds
+*.jar
+*.war
+*.ear
+
+# Node modules (if any frontend gets added later)
+node_modules/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Spring Boot dev tools
+.spring-boot-devtools.properties
+
+# Test reports
+surefire-reports/
+test-output/
+
+# Misc
+*.class
