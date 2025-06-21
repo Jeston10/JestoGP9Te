@@ -7,6 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/peer")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class PeerController {
 
     private final PeerNetwork network;

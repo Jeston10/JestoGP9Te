@@ -1,13 +1,11 @@
-import axios from 'axios';
+import api from './axios';
 
-const BASE_URL = 'http://localhost:8080/api/transaction';
-
-export const createTransaction = async (data) => {
-  const response = await axios.post(`${BASE_URL}/create`, data);
+export const createTransaction = async (transaction) => {
+  const response = await api.post('/transaction/new', transaction);
   return response.data;
 };
 
-export const getAllTransactions = async () => {
-  const response = await axios.get(`${BASE_URL}/all`);
+export const getPendingTransactions = async () => {
+  const response = await api.get('/transaction/pending');
   return response.data;
 };

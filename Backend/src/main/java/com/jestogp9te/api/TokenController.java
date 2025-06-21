@@ -7,6 +7,7 @@ import java.math.BigInteger;
 
 @RestController
 @RequestMapping("/token")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class TokenController {
 
     private final TokenContract tokenContract = new TokenContract();

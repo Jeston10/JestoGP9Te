@@ -1,13 +1,22 @@
-import axios from 'axios';
+import api from './axios';
 
-const BASE_URL = 'http://localhost:8080/api/token';
-
-export const issueToken = async (data) => {
-  const response = await axios.post(`${BASE_URL}/issue`, data);
+export const getTokenBalance = async (address) => {
+  const response = await api.get('/token/balance', {
+    params: { address }
+  });
   return response.data;
 };
 
-export const getTokenInfo = async (tokenId) => {
-  const response = await axios.get(`${BASE_URL}/${tokenId}`);
+export const mintToken = async (to, amount) => {
+  const response = await api.post('/token/mint', null, {
+    params: { to, amount }
+  });
+  return response.data;
+};
+
+export const transferToken = async (from, to, amount) => {
+  const response = await api.post('/token/transfer', null, {
+    params: { from, to, amount }
+  });
   return response.data;
 };

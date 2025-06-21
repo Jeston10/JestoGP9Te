@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/mining")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class MiningController {
 
     private final Blockchain blockchain;

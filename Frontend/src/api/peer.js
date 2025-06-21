@@ -1,13 +1,13 @@
-import axios from 'axios';
-
-const BASE_URL = 'http://localhost:8080/api/peer';
+import api from './axios';
 
 export const getPeers = async () => {
-  const response = await axios.get(`${BASE_URL}/list`);
+  const response = await api.get('/peer/list');
   return response.data;
 };
 
-export const addPeer = async (peerUrl) => {
-  const response = await axios.post(`${BASE_URL}/add`, { url: peerUrl });
+export const addPeer = async (address) => {
+  const response = await api.post('/peer/add', null, {
+    params: { address }
+  });
   return response.data;
 };

@@ -1,8 +1,6 @@
-import axios from 'axios';
-
-const BASE_URL = 'http://localhost:8080/api/mining';
+import api from './axios';
 
 export const mineBlock = async () => {
-  const response = await axios.post(`${BASE_URL}/mine`);
+  const response = await api.post('/mining/mine');
   return response.data;
 };

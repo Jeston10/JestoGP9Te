@@ -1,6 +1,8 @@
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\api\TransactionController.java
+D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\GlobalExceptionHandler.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\api\TokenController.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\api\HomeController.java
+D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\api\BlockchainController.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\blockchain\Transaction.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\blockchain\Wallet.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\persistence\LevelDBManager.java
@@ -10,6 +12,7 @@ D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\util\WalletUtilExceptio
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\network\PeerNetwork.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\api\PeerController.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\util\WalletUtil.java
+D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\WebConfig.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\blockchain\Block.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\util\HashUtil.java
 D:\Games\JestoGP9Te\Backend\src\main\java\com\jestogp9te\persistence\SerializationUtil.java
